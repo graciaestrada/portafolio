@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Open Sans:400,500,600,700');
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	color: #212529;
+}
+.section{
+	padding:50px 0;
+	min-height:300px;
+}
+
+
+.header-area.sticky {
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+.header-area.sticky .navbar-light{
+	background-color: #eee !important;
+}
+
+#intro {	
+	background-color: #D4C5E2;
+}
+#services {
+	background-color: #A7E2E3;
+}
+
+#contact {
+	background-color: #c9d7f8;
+}
+
+#animation {
+	align-items: center;
+}
+
+#boton {
+	background-color: #4c6663;
+	color: white;
+	transition-property: background-color;
+	transition-duration: 150ms; 
+}
+
+#boton:hover {
+	background-color: #80cfa9;
+}
+
+#logos {
+	align-items: center;
+	padding: 5px 20px 5px 92px;
+}
+
+#logoss {
+	align-items: center;
+	padding: 5px 20px 5px 92px;
+}
+
+#animation {
+	padding: 5px 20px 5px 20px;
+}
+
+#posters {
+	padding: 5px 20px 5px 45px;
+}
